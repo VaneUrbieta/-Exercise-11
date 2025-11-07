@@ -1,5 +1,69 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rem-<uniquifier> {
+  font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2021/06/25/23/27/forest-6364913_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'REM', sans-serif;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'New Rocker', system-ui;
+  font-size: 3.5rem;
+  color: #D9C4B0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'New Rocker', system-ui;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #A4C484;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+p {
+  font-family: 'REM', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #E8DBCF;
+  margin-bottom: 20px;
+}
+
+em {
+  font-style: italic;
+  color: #A4C484;
+}
+
+strong {
+  font-weight: bold;
+  color: #D9C4B0;
